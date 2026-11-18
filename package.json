@@ -1,0 +1,32 @@
+{
+  "name": "backend-tutorial",
+  "version": "1.0.0",
+  "description": "web assignment",
+  "type": "module",
+  "homepage": "https://github.com/amandeepsingh25cse-gif/Backend-Tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/amandeepsingh25cse-gif/Backend-Tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandeepsingh25cse-gif/Backend-Tutorial.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/src/index.js",
+    "start": "node backend/src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
